@@ -1,6 +1,5 @@
-<img src=https://github.com/XlogicX/Validation/blob/master/vslot.png>
-
 # Validation
+<img src=https://github.com/XlogicX/Validation/blob/master/vslot.png>
 
 Your a budding socialite sold on the concept that social networking helps keep you 'connected' to your social circle and more. You feel validated when people that know you like your posts and even share them with others. You can't please everyone though, about 2/3 of the time, your posts go into silence. That's okay though, the sudden rush of validation that you get from liked/shared posts is enough to sustain you. Your goal is to come to the end of your life validated. But the real question becomes: how much validation is enough validation? Will you be able to achieve this level of excellence?
 
