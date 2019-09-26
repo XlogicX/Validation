@@ -1,4 +1,4 @@
-<img src=https://github.com/XlogicX/Validation/blob/master/vslot.png width="600">
+<img src=https://github.com/XlogicX/Validation/blob/master/vslot.png>
 
 # Validation
 
