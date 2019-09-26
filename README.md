@@ -1,3 +1,5 @@
+<img src=https://github.com/XlogicX/Validation/blob/master/vslot.png width="600">
+
 # Validation
 
 Your a budding socialite sold on the concept that social networking helps keep you 'connected' to your social circle and more. You feel validated when people that know you like your posts and even share them with others. You can't please everyone though, about 2/3 of the time, your posts go into silence. That's okay though, the sudden rush of validation that you get from liked/shared posts is enough to sustain you. Your goal is to come to the end of your life validated. But the real question becomes: how much validation is enough validation? Will you be able to achieve this level of excellence?
@@ -29,3 +31,6 @@ One way to die early is to get 3 bus images. In this case, you weren't aware eno
 
 ### Winning
 You must merely have enough validation by the time you die of old age. You get no prize in earning that validation early, life can always take a turn for the worse down the road. What matters is how you feel about yourself when your time has naturally come. I'm not sure if I should give away this secret to happiness, but there is one way to consistently win each and every time, no matter the odds.
+
+### Screenshot
+<img src=https://github.com/XlogicX/Validation/blob/master/validation.png width="400">
