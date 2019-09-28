@@ -14,8 +14,8 @@ mov ah, 1
 mov ch, 0x26
 int 0x10
 ;Fill in all black
-mov cx, 0x07d0            ; whole screens worth
-;cbw                       ; clear ax (black on black with null char)
+mov ch, 0x8               ; whole screens worth
+;cbw                      ; clear ax (black on black with null char)
 mov ah, 0x88              ; Fill screen with dark grey color
 xor di, di                ; first coordinate of video mem
 rep stosw                 ; push it to video memory
@@ -179,9 +179,9 @@ column_spin:
     ; Subtract a point just for checking your status
     sub bp, 5
 
-    ; Check for suicide death (there's gotta be a better/smaller way to check for negative in bp)
-    bt bp, 15    ; test bit at row (bx) (see if negative, 4 byte instruction)
-    jc ded
+    ; Check for suicide death
+    test bp, bp
+    js ded
 ret
 
 win:
@@ -196,9 +196,10 @@ ded_win:
 ; can see time of death, validation at death, and last slot roll
 mov di, 160               ; start at 2nd row of screen (so timer and score is still visible)
 mov cx, 640               ; fill until 2nd slot row
+push cx
 rep stosw                 ; push it to video memory
 add di, 1280              ; start again at 3rd slot row
-mov cx, 640               ; enough to fill that row
+pop cx
 rep stosw
 halt: jmp halt
 
